@@ -15,6 +15,12 @@ public class BrowserLaunch {
 		driver.navigate().back();
 		driver.navigate().forward();
 		driver.navigate().refresh();
+
+		driver.navigate().forward();
+		driver.navigate().refresh();
+		
+		driver.navigate().forward();
+		driver.navigate().refresh();
 		
 	}
 
