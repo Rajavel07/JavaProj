@@ -16,6 +16,14 @@ public class BrowserLaunch {
 		driver.navigate().forward();
 		driver.navigate().refresh();
 		
+
+		driver.get("https://www.eclipse.org/downloads/packages/release/oxygen/3a");
+		driver.navigate().to("http://www.flipkart.com/");
+		driver.navigate().to("https://www.amazon.in");
+		driver.navigate().back();
+		driver.navigate().forward();
+		driver.navigate().refresh();
+		
 	}
 
 }
